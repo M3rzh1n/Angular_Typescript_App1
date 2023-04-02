@@ -3,10 +3,10 @@ export const environment = {
   auth0: {
     domain: 'dev-isoft.us.auth0.com',
     clientId: 'lERzBtf7cxB37irvf5ON8ZPjyXXnYYyR',
+    prompt: 'none',
     authorizationParams: {
       redirect_uri: 'https://m3rzh1n.github.io/Angular_Typescript_App1/callback',
       connection: "sms",
-      prompt: "none",
     },
     errorPath: '/callback',
   },
