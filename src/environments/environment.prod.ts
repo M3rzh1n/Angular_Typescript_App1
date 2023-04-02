@@ -6,6 +6,7 @@ export const environment = {
     authorizationParams: {
       redirect_uri: 'https://m3rzh1n.github.io/Angular_Typescript_App1/callback',
       connection: "sms",
+      prompt: "none",
     },
     errorPath: '/callback',
   },
